@@ -27,6 +27,9 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 1. Direct USB Port inside the car to get data directly
 2. Data acquired through bluetooth
 ### Kill Switch:
+1. Abide by rules 8.10-8.20 in the FSAE Electric Rule book
+2. Everything must be connected in series
+   1. We need to collaborate with the Battery Team
 
 
 
