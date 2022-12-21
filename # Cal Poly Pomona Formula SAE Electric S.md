@@ -16,6 +16,10 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
    2. Wheel Temperatures
    3. Any type of system failure
    4. Generally will be a combination of LEDs and on-screen warnings
+3. Main Controller:
+   1. Teensy 4.1
+4. Test Controller:
+   1. Arduino MEGA 
 ### Buttons:
 1. Responsible for Button Size
    1. Need to collaborate with ergonomics subteam
