@@ -30,5 +30,8 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 1. Abide by rules 8.10-8.20 in the FSAE Electric Rule book
 2. Everything must be connected in series
    1. We need to collaborate with the Battery Team
+- One on the dash
+- One under the brake
+- One on each side of the driver’s side
 
 
