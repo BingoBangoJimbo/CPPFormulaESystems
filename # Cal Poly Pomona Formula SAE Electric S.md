@@ -3,10 +3,12 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 ## Requirements for Systems:
 ### Dashboard:
 1. Speedometer
-2. Temperture Sensors
+2. Temperture Display
 3. Battery Percentage/Range
-4. IMU/G-Force meter
-5. Ultrasonic Sensor
+## Sensors
+1. Temperature Sensors
+2. IMU/G-Force meter
+3. Ultrasonic Sensor
 ### Controller:
 ### Dashboard Display:
 ### Bluetooth:
