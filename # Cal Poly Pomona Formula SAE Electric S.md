@@ -10,8 +10,14 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 2. IMU/G-Force meter
 3. Ultrasonic Sensor
 ### Controller:
-### Dashboard Display:
-### Bluetooth:
+1. Managine Brake Regeneration
+2. System Warnings with other Subteams
+   1. High Battery Temperature
+   2. Wheel Temperatures
+   3. Any type of system failure
+   4. Generally will be a combination of LEDs and on-screen warnings
+### Buttons:
+### Bluetooth
 ### Kill Switch:
 
 
