@@ -17,7 +17,9 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
    3. Any type of system failure
    4. Generally will be a combination of LEDs and on-screen warnings
 ### Buttons:
-### Bluetooth
+1. Responsible for Button Size
+   1. Need to collaborate with ergonomics subteam
+### Bluetooth:
 ### Kill Switch:
 
 
