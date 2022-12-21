@@ -1,6 +1,6 @@
 # Cal Poly Pomona Formula SAE Electric Systems Github
-
-## Requirements for Systems
+The Cal Poly Pomona Formula SAE Electric team is responsible for programming the dashboard, setting up sensors, and data acquisition of the electric formula car. 
+## Requirements for Systems:
 ### Dashboard:
 1. Speedometer
 2. Temperture Sensors
