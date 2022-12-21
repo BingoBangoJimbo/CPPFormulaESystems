@@ -4,7 +4,7 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 ## Requirements for Systems:
 ### Dashboard:
 1. Speedometer
-2. Temperture Display
+2. Temperature Display
 3. Battery Percentage/Range
 ### Sensors
 1. Temperature Sensors
