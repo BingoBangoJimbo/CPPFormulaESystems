@@ -5,7 +5,7 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 1. Speedometer
 2. Temperture Display
 3. Battery Percentage/Range
-## Sensors
+### Sensors
 1. Temperature Sensors
 2. IMU/G-Force meter
 3. Ultrasonic Sensor
