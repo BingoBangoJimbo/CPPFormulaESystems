@@ -1,6 +1,6 @@
 # Cal Poly Pomona Formula SAE Electric Systems Github
 The Cal Poly Pomona Formula SAE Electric team is responsible for programming the dashboard, setting up sensors, and data acquisition of the electric formula car. This github respository is all of the code that the Cal Poly Pomona Systems subteam has worked on or have collaborated with in CPP FSAE Electric.
-## [Master Doc](https://docs.google.com/document/d/1RPN5VsbT2gXNFMWpOm2U7PwST0EjmoueHxUosao1m_c/edit) 
+## [Systems Google Doc](https://docs.google.com/document/d/1RPN5VsbT2gXNFMWpOm2U7PwST0EjmoueHxUosao1m_c/edit) 
 ## Requirements for Systems:
 ### Dashboard:
 1. Speedometer
