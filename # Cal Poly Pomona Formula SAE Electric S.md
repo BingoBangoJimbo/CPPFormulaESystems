@@ -23,7 +23,9 @@ The Cal Poly Pomona Formula SAE Electric team is responsible for programming the
 ### Buttons:
 1. Responsible for Button Size
    1. Need to collaborate with ergonomics subteam
-### Bluetooth:
+### Data Acquisition:
+1. Direct USB Port inside the car to get data directly
+2. Data acquired through bluetooth
 ### Kill Switch:
 
 
