@@ -33,7 +33,8 @@ void setup(void) {
   Serial.println(" devices.");
 
   // Loop through each device, print out address
-  for(int i=0;i<numberOfDevices; i++) {
+  for(int i=0;i<numberOfDevices; i++) 
+  {
     // Search the wire for address
     if(sensors.getAddress(tempDeviceAddress, i)) 
     {
