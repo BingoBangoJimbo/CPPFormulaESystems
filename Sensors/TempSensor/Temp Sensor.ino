@@ -35,60 +35,57 @@ void setup(void) {
   // Loop through each device, print out address
   for(int i=0;i<numberOfDevices; i++) {
     // Search the wire for address
-    if(sensors.getAddress(tempDeviceAddress, i)) {
+    if(sensors.getAddress(tempDeviceAddress, i)) 
+    {
       Serial.print("Found device ");
       Serial.print(i, DEC);
       Serial.print(" with address: ");
       printAddress(tempDeviceAddress);
       Serial.println();
-		} else {
-		  Serial.print("Found ghost device at ");
-		  Serial.print(i, DEC);
-		  Serial.print(" but could not detect address. Check power and cabling");
-		}
+    } 
+    else 
+    {
+      Serial.print("Found ghost device at ");
+      Serial.print(i, DEC);
+      Serial.print(" but could not detect address. Check power and cabling");
+    }
   }
   Serial.println();
 }
 const int tempFLimit = 80;
 void loop(void) { 
   sensors.requestTemperatures(); // Send the command to get temperatures
-  
+  int tempFHighest = -256;
   // Loop through each device, print out temperature data
   for(int i=0; i < numberOfDevices; i++) {
     // Search the wire for address
-    if(sensors.getAddress(tempDeviceAddress, i)){
+    if(sensors.getAddress(tempDeviceAddress, i)) 
+    {
+        // Output the device ID
+        Serial.print("Temperature for device: ");
+        Serial.println(i,DEC);
 		
-		// Output the device ID
-		Serial.print("Temperature for device: ");
-		Serial.println(i,DEC);
-  
-    int tempFHighest = -256;
-    float tempF = sensors.getTempF(tempDeviceAddress);
-    //float tempC = sensors.getTempC(tempDeviceAddress);
-    
-    // Print the data
-    //float tempC = sensors.getTempC(tempDeviceAddress);
-    //Serial.print("Temp C: ");
-    //Serial.print(tempC);
-    Serial.print("Temp F: ");
-    Serial.println(tempF);
+        float tempF = sensors.getTempF(tempDeviceAddress);
+
+        // Print temp data;
+        Serial.print("Temp F: ");
+        Serial.println(tempF);
 
     if (tempF > tempFLimit)    
       {
         tempFHighest = tempF;
       } 
 
-      if (tempFHighest > tempFLimit)
+    if (tempFHighest > tempFLimit)
       {
         digitalWrite(ledPin, HIGH);
         Serial.println("Temp is over limit");      
       } 
-      else
+    else
       {
         digitalWrite(ledPin, LOW);                  
       } 
     } 
-  //Serial.println();
   }
   Serial.println();
   delay(5000);
@@ -96,8 +93,10 @@ void loop(void) {
 
 
 // function to print a device address
-void printAddress(DeviceAddress deviceAddress) {
-  for (uint8_t i = 0; i < 8; i++) {
+void printAddress(DeviceAddress deviceAddress) 
+  {
+  for (uint8_t i = 0; i < 8; i++) 
+  {
     if (deviceAddress[i] < 16) Serial.print("0");
       Serial.print(deviceAddress[i], HEX);
   }
